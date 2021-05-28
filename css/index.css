@@ -1,0 +1,30 @@
+.modulo2__h1 {
+  font-size: 40px;
+  color: #10375c;
+}
+
+.modulo2__p {
+  font-size: 18px;
+  color: #9a9a9a;
+}
+
+.modulo2__top-arrows {
+  text-align: center;
+}
+
+.row2-box1 {
+  height: 7px;
+  width: 3%;
+  background-color: #dd2c00;
+}
+
+.row2-box2 {
+  height: 7px;
+  width: 15%;
+  background-color: #dfdfdf;
+}
+
+.modulo2-row3 {
+  margin-top: 100px;
+  margin-left: 100px;
+}
