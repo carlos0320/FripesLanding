@@ -1,0 +1,45 @@
+p{
+    margin:0;
+}
+
+.find__questions{
+    width: 80%;
+    margin: auto;
+}
+
+.find__questions--title{
+    width: 50%;
+    margin:auto;
+    color:#10375C;
+}
+
+.questions__subtitle{
+    color:#10375C;
+}
+
+.card{
+    height: 150px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));    
+}
+
+.card__middle{
+    background-color: #FF5722;
+    color: white;
+}
+
+.down-icon{
+    background-color: #FF5722;
+    width: 60px;
+    height: 50px;    
+}
+
+.more-questions_icon{   
+    
+    color: #FF5722;
+    
+}
+
+.more-questions_icon p{
+    margin: 0;
+}
+
