@@ -9,104 +9,98 @@
     <title>Document</title>
 </head>
 <body>
+  
 
 <!--*************************************************** Modulo 1. Introducing ************************************************************-->
 
 
-<div class="container">
+<div class="introducing container">
 
-        <header class="d-flex justify-content-around">
+        <!-- introducing header -->
+        <header class="introducing__header d-flex justify-content-between py-5">
 
-            <a class="navbar-brand" href="#">Frispes.</a>
+            <a class="introducing__logo navbar-brand" href="#">Frispes.</a>
 
-            <ul class="nav justify-content-center">
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Active</a>
+            <ul class="introducing__ready nav justify-content-center">
+                <li class="introducing__ready--item nav-item">
+                	<a class="introducing__ready--link nav-link text-dark h6" href="#">Home</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
+                <li class="introducing__ready--item nav-item">
+                	<a class="introducing__ready--link nav-link text-dark h6" href="#">Workspace</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
+                <li class="introducing__ready--item nav-item">
+                	<a class="introducing__ready--link nav-link text-dark h6" href="#">Service</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#" >Disabled</a>
+                <li class="introducing__ready--item nav-item">
+                	<a class="introducing__ready--link nav-link text-dark h6" href="#" >Events</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#" >Disabled</a>
-                  </li>
+                <li class="introducing__ready--item nav-item">
+                	<a class="introducing__ready--link nav-link text-dark h6" href="#">Reviews</a>
+                </li>
+                <li class="introducing__ready--item nav-item">
+                	<a class="introducing__ready--link nav-link text-dark h6" href="#">Contact Us</a>
+                </li>
             </ul>
 
-            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                <button class="btn btn-primary me-md-2" type="button">Button</button>
-                <button class="btn btn-primary" type="button">Button</button>
+            <div class="introducing__button d-grid gap-2 d-md-flex justify-content-md-end">
+                <button class="introducing__button--log btn  me-md-2" type="button">Log In</button>
+                <button class="introducing__button--signUp  btn-warning" type="button">Sign Up</button>
             </div>
         </header>
 
-        <!-- introducing -->
-        <div class="content ">
+        <!-- introducing block-->
+        <div class="introducing__block content ">
 
-            <div class="row ">
-                <div class="col-12">
-                    Introducing
+			<!-- introducing content-->
+            <div class="introducing__content row ">
+                <div class="introducing__content--introducing col-12">
+                	Introducing
                 </div>
-                <div class="col-6">
-                   <h1> Revolutionary co-working space to realize your innovation</h1>
+                <div class="introducing__content--revolutionary col-6">
+                	<h1>Revolutionary co-working space to realize your innovation</h1>
                 </div>
-                <div class="col-4">
+                <div class="introducing__content--frispes col-4">
                     <p>In frispes, we spearhead new initiatives and provide mentorship to a new startup, and help grow their opportunities in key local, regional and global markets</p>
                 </div>
-              </div>
+            </div>
 
-             <div class="card-img d-flex">
+            <!-- introducing card -->
+            <div class="introducing__card card-img d-flex">
 
-                 <!-- card -->
-                 <div class="card" style="width: 18rem;">
-                     <div class="card-header">
-                       <h5>Find your space now</h5>
-                     </div>
-                     <ul class="list-group list-group-flush">
-                       <li class="list-group-item  ">
+                <div class="card" style="width: 18rem;">
+                    <div class="introducing__card--title card-header">
+                    	<h5>Find your space now</h5>
+                    </div>
+                    <ul class="introducing__card--ready list-group list-group-flush">
+                    	<li class="introducing__card--item list-group-item  ">
                            <p>Location</p>
                            <p>Malang, Indonesia</p>
-                         </li>
-                       <li class="list-group-item">
+                    	</li>
+                    	<li class="introducing__card--item list-group-item">
                            <p>Type</p>
                            <p>Private Office</p>
-                         </li>
-                       <li class="list-group-item">
+                        </li>
+                       	<li class="introducing__card--item list-group-item">
                            <p>Date</p>
                            <p>9 Aug 2020</p>
-                         </li>
-                       <a href="#" class="btn btn-primary active" role="button" data-bs-toggle="button" aria-pressed="true">FIND MY SPACE</a>
-                     </ul>
-                   </div>
+                        </li>
+                    	<a href="#" class="introducing__card--link btn btn-primary active" role="button" data-bs-toggle="button" aria-pressed="true">
+							FIND MY SPACE
+						</a>
+                    </ul>
+                </div>
      
-                   <!-- imagen del co-working -->
-                   <div class="container">
-                       <img src="assets/co-working.png" alt="co-working">
-             </div> 
-              </div>
-
-
+                <!-- imagen del co-working -->
+                <div class="introducing__imagen container">
+                	<img src="assets/co-working.png" alt="co-working">
+                </div> 
+            </div>
         </div>
 </div>
 
 
+<!--*************************************************** Fin   Modulo 1.************************************************************-->
 
-
-
-
-
-
-
-
-    
+   
 </body>
 </html>
