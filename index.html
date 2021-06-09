@@ -1,113 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/index.css" />
     <title>Document</title>
-</head>
-<body>
-  
+  </head>
+  <body>
+    <!--*************************************************** Modulo 1. Introducing ************************************************************-->
 
-<!--*************************************************** Modulo 1. Introducing ************************************************************-->
+    <div class="introducing container">
+      <!-- introducing header -->
+      <header class="introducing__header d-flex justify-content-between py-5">
+        <a class="introducing__logo navbar-brand" href="#">Frispes.</a>
 
+        <ul class="introducing__ready nav justify-content-center">
+          <li class="introducing__ready--item nav-item">
+            <a class="introducing__ready--link nav-link text-dark h6" href="#"
+              >Home</a
+            >
+          </li>
+          <li class="introducing__ready--item nav-item">
+            <a class="introducing__ready--link nav-link text-dark h6" href="#"
+              >Workspace</a
+            >
+          </li>
+          <li class="introducing__ready--item nav-item">
+            <a class="introducing__ready--link nav-link text-dark h6" href="#"
+              >Service</a
+            >
+          </li>
+          <li class="introducing__ready--item nav-item">
+            <a class="introducing__ready--link nav-link text-dark h6" href="#"
+              >Events</a
+            >
+          </li>
+          <li class="introducing__ready--item nav-item">
+            <a class="introducing__ready--link nav-link text-dark h6" href="#"
+              >Reviews</a
+            >
+          </li>
+          <li class="introducing__ready--item nav-item">
+            <a class="introducing__ready--link nav-link text-dark h6" href="#"
+              >Contact Us</a
+            >
+          </li>
+        </ul>
 
-<div class="introducing container">
-
-        <!-- introducing header -->
-        <header class="introducing__header d-flex justify-content-between py-5">
-
-            <a class="introducing__logo navbar-brand" href="#">Frispes.</a>
-
-            <ul class="introducing__ready nav justify-content-center">
-                <li class="introducing__ready--item nav-item">
-                	<a class="introducing__ready--link nav-link text-dark h6" href="#">Home</a>
-                </li>
-                <li class="introducing__ready--item nav-item">
-                	<a class="introducing__ready--link nav-link text-dark h6" href="#">Workspace</a>
-                </li>
-                <li class="introducing__ready--item nav-item">
-                	<a class="introducing__ready--link nav-link text-dark h6" href="#">Service</a>
-                </li>
-                <li class="introducing__ready--item nav-item">
-                	<a class="introducing__ready--link nav-link text-dark h6" href="#" >Events</a>
-                </li>
-                <li class="introducing__ready--item nav-item">
-                	<a class="introducing__ready--link nav-link text-dark h6" href="#">Reviews</a>
-                </li>
-                <li class="introducing__ready--item nav-item">
-                	<a class="introducing__ready--link nav-link text-dark h6" href="#">Contact Us</a>
-                </li>
-            </ul>
-
-            <div class="introducing__button d-grid gap-2 d-md-flex justify-content-md-end">
-                <button class="introducing__button--log btn  me-md-2" type="button">Log In</button>
-                <button class="introducing__button--signUp btn me-md-2" type="button">Sign Up</button>
-            </div>
-        </header>
-
-        <!-- introducing block-->
-        <div class="introducing__block content ">
-
-            <div class="introducing__content--introducing ">
-                Introducing <img class="ps-2" src="assets/stripe.png" alt="img">
-            </div>
-			<!-- introducing content-->
-            <div class="introducing__content row pt-3 justify-content-between ">
-                <div class="introducing__content--revolutionary col-6 ">
-                	<h1> <span>Revolutionary</span>  co-working space to realize your innovation</h1>
-                </div>
-                <div class="introducing__content--frispes col-4">
-                    <p>In frispes, we spearhead new initiatives and provide mentorship to a new startup, and help grow their opportunities in key local, regional and global markets</p>
-                </div>
-            </div>
-
-
-            <!-- introducing card  -->
-            <div class="introducing__card--content d-flex">
-
-                <div class="introducing__card  mt-5 d-flex flex-column  justify-content-center mb-5">
-
-                    <h3 class="introducing__card--title py-3 text-center">Find your space now</h3>
-                    <div class="introducing__card--items d-flex my-2 justify-content-between align-items-center">
-                        <div class="introducing__card--item ps-3 pt-1 ">
-                            <h6 class="introducing__card--item--title">Location</h6>
-                            <p class="introducing__card--item--text">Malang, Indonesia</p>
-                        </div>
-                        <!-- No me coge la imagen -->
-                        <img src="assets/displace.png" alt="ee" class="introducing__card--item--displace pe-3">
-                    </div>
-                    <div class="introducing__card--items d-flex my-2 justify-content-between align-items-center">
-                        <div class="introducing__card--item ps-3">
-                            <h6 class="introducing__card--item--title">Type</h6>
-                            <p class="introducing__card--item--text">Private Office</p>
-                        </div>
-                        <!-- No me coge la imagen -->
-                        <img src="assets/displace.png" alt="ee" class="introducing__card--item--displace pe-3">
-                    </div>
-                    <div class="introducing__card--items d-flex my-2 justify-content-between align-items-center">
-                        <div class="introducing__card--item ps-3 ">
-                            <h6 class="introducing__card--item--title">Date</h6>
-                            <p class="introducing__card--item--text">9 Aug 2020</p>
-                        </div>
-                        <!-- No me coge la imagen -->
-                        <img src="assets/displace.png" alt="ee" class="introducing__card--item--displace pe-3">
-                    </div>
-                    <button class="introducing__card--btn btn mb-3" type="button">FIND MY SPACE</button>
-                </div>
-
-                <div class="introducing__imagen container">
-                    <img src="assets/co-working.png" alt="co-working">
-                </div> 
-            </div>
+        <div
+          class="
+            introducing__button
+            d-grid
+            gap-2
+            d-md-flex
+            justify-content-md-end
+          "
+        >
+          <button class="introducing__button--log btn me-md-2" type="button">
+            Log In
+          </button>
+          <button class="introducing__button--signUp btn me-md-2" type="button">
+            Sign Up
+          </button>
         </div>
-</div>
+      </header>
 
+      <!-- introducing block-->
+      <div class="introducing__block content">
+        <div class="introducing__content--introducing">
+          Introducing <img class="ps-2" src="assets/stripe.png" alt="img" />
+        </div>
+        <!-- introducing content-->
+        <div class="introducing__content row pt-3 justify-content-between">
+          <div class="introducing__content--revolutionary col-12 col-md-6">
+            <h1>
+              <span>Revolutionary</span> co-working space to realize your
+              innovation
+            </h1>
+          </div>
+          <div class="introducing__content--frispes col-12 col-md-4">
+            <p>
+              In frispes, we spearhead new initiatives and provide mentorship to
+              a new startup, and help grow their opportunities in key local,
+              regional and global markets
+            </p>
+          </div>
+        </div>
 
-<!--*************************************************** Fin   Modulo 1.************************************************************-->
+        <!-- introducing card  -->
+        <div class="introducing__card--content row">
+          <div class="col-12 col-md-3">
+              <div
+                class="
+                  introducing__card
+                  mt-5
+                  d-flex
+                  flex-column
+                  justify-content-center
+                  mb-5
+                "
+              >
+                <h4 class="introducing__card--title py-3 text-center">
+                  Find your space now
+                </h4>
+                <div
+                  class="
+                    introducing__card--items
+                    d-flex
+                    my-2
+                    justify-content-between
+                    align-items-center
+                  "
+                >
+                  <div class="introducing__card--item ps-3 pt-1">
+                    <h6 class="introducing__card--item--title">Location</h6>
+                    <p class="introducing__card--item--text">Malang, Indonesia</p>
+                  </div>
+                  <!-- No me coge la imagen -->
+                  <img
+                    src="assets/displace.png"
+                    alt="ee"
+                    class="introducing__card--item--displace pe-3"
+                  />
+                </div>
+                <div
+                  class="
+                    introducing__card--items
+                    d-flex
+                    my-2
+                    justify-content-between
+                    align-items-center
+                  "
+                >
+                  <div class="introducing__card--item ps-3">
+                    <h6 class="introducing__card--item--title">Type</h6>
+                    <p class="introducing__card--item--text">Private Office</p>
+                  </div>
+                  <!-- No me coge la imagen -->
+                  <img
+                    src="assets/displace.png"
+                    alt="ee"
+                    class="introducing__card--item--displace pe-3"
+                  />
+                </div>
+                <div
+                  class="
+                    introducing__card--items
+                    d-flex
+                    my-2
+                    justify-content-between
+                    align-items-center
+                  "
+                >
+                  <div class="introducing__card--item ps-3">
+                    <h6 class="introducing__card--item--title">Date</h6>
+                    <p class="introducing__card--item--text">9 Aug 2020</p>
+                  </div>
+                  <!-- No me coge la imagen -->
+                  <img
+                    src="assets/displace.png"
+                    alt="ee"
+                    class="introducing__card--item--displace pe-3"
+                  />
+                </div>
+                <button class="introducing__card--btn btn mb-3" type="button">
+                  FIND MY SPACE
+                </button>
+              </div>
 
-   
-</body>
+          </div>
+
+          <div class="col-12 col-md-9">
+              <div class="introducing__imagen ">
+                <img class="img-fluid" src="assets/co-working.png" alt="co-working" />
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--*************************************************** Fin   Modulo 1.************************************************************-->
+  </body>
 </html>
