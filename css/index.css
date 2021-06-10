@@ -1,3 +1,64 @@
 h1 {
     color: rgba(16, 55, 92, 1);
 }
+/********************************************************* Modulo 1. introducing ************************************/
+
+
+.introducing__logo{
+    color: #10375C;
+}
+
+.introducing__button--log{
+    color: #FF5722;
+}
+
+.introducing__button--signUp{
+    color: #fff;
+    background: #FF5722;
+    box-shadow: 2px 2px 2px 1px #FF5722;
+    border-radius: 0%;
+}
+
+.introducing__content--revolutionary h1 span{
+    color: #DD2C00;  
+}
+
+.introducing__content--revolutionary{
+    color:#10375C;
+}
+
+.introducing__card{
+    background: #10375C;
+}
+
+.introducing__card--title{
+    color: #fff;
+}
+
+.introducing__card--items{
+    background: #0D2C4A;
+    width: 80%;   
+}
+
+.introducing__card--item--title{
+    color: #627689;
+}
+
+.introducing__card--item--text{
+    color: #fff;
+}
+
+.introducing__card--items{
+    margin: 0 auto;
+}
+
+.introducing__card--btn{
+    background: #FF5722;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 0%;
+    color: #fff;
+}
+
+
+/********************************************************* Modulo 1. FIN ************************************/
