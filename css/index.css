@@ -1,56 +1,161 @@
+
+/********************************************************* Modulo 1. introducing ************************************/
+
+.introducing__logo {
+  color: #10375c;
+}
+
+.introducing__button--log {
+  color: #ff5722;
+}
+
+.introducing__button--signUp {
+  color: #fff;
+  background: #ff5722;
+  box-shadow: 2px 2px 2px 1px #ff5722;
+  border-radius: 0%;
+}
+
+.introducing__content--revolutionary h1 span {
+  color: #dd2c00;
+}
+
+.introducing__content--revolutionary {
+  color: #10375c;
+}
+
+.introducing__card {
+  background: #10375c;
+}
+
+.introducing__card--title {
+  color: #fff;
+}
+
+.introducing__card--items {
+  background: #0d2c4a;
+  width: 80%;
+}
+
+.introducing__card--item--title {
+  color: #627689;
+}
+
+.introducing__card--item--text {
+  color: #fff;
+}
+
+.introducing__card--items {
+  margin: 0 auto;
+}
+
+.introducing__card--btn {
+  background: #ff5722;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 0%;
+  color: #fff;
+}
+
+/********************************************************* Modulo 1. FIN ************************************/
+
+/* Modulo 2 */
+
+.modulo2-h1 {
+  font-size: 40px;
+  color: #10375c;
+}
+
+.modulo2-p {
+  font-size: 18px;
+  color: #9a9a9a;
+}
+
+.modulo2-top-arrows {
+  text-align: center;
+}
+
+.row2-box1 {
+  height: 7px;
+  width: 3%;
+  background-color: #dd2c00;
+}
+
+.row2-box2 {
+  height: 7px;
+  width: 15%;
+  background-color: #dfdfdf;
+}
+
+.modulo2-row3 {
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.Why-Frispes {
+    background-color: #0d2c4a;
+    color: white;
+    padding: 60px;
+}
+/* Modulo 2: END */
+
+/* modulo 5 */
 p{
-    margin:0;
+  margin:0;
+}
+
+h1 {
+color: rgba(16, 55, 92, 1);
 }
 
 .find__questions{
-    width: 80%;
-    margin: auto;
+  width: 80%;
+  margin: auto;
 }
 
 .find__questions--title{
-    width: 50%;
-    margin:auto;
-    color:#10375C;
+  width: 50%;
+  margin:auto;
+  color:#10375C;
 }
 
 .questions__subtitle{
-    color:#10375C;
+  color:#10375C;
 }
 
 .ceo_google--title{
-    color:#10375C;
-    font-weight: bold;
+  color:#10375C;
+  font-weight: bold;
 }
 
 .card{
-    height: 150px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));    
+  height: 150px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));    
 }
 
 .card__middle{
-    background-color: #FF5722;
-    color: white;
+  background-color: #FF5722;
+  color: white;
 }
 
 .down-icon{
-    background-color: #FF5722;
-    width: 60px;
-    height: 50px;    
+  background-color: #FF5722;
+  width: 60px;
+  height: 50px;    
 }
 
 .more-questions_icon{   
-    color: #FF5722;    
+  color: #FF5722;    
 }
 
 .questions__subtitle{
-    margin:0;
+  margin:0;
 }
 
 .more-questions_icon p{
-    margin: 0;
+  margin: 0;
 }
 
 .card-footer{
-    box-shadow: 0 1px 3px gray;
+  box-shadow: 0 1px 3px gray;
 }
-
